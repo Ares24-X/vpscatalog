@@ -1,0 +1,33 @@
+baseURL = "https://vpscatalog.com"
+languageCode = "en-US"
+title = "VPS Catalog - Find the Best VPS Hosting for Your Needs"
+theme = "vpsthemes"
+
+# SEO
+[params]
+  description = "In-depth VPS reviews, comparisons, and recommendations to help you choose the perfect hosting plan."
+  author = "VPS Catalog Team"
+  contact = "hello@vpscatalog.com"
+
+# Performance
+[outputs]
+  home = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[build]
+  writeStats = true
+
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffix = "json"
+    delimiter = ""

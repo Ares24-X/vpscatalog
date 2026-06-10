@@ -1,0 +1,65 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="container">
+        <h1>Find the Perfect VPS for Your Project</h1>
+        <p class="hero-subtitle">Independent reviews, honest comparisons, and actionable recommendations — no fluff, just what works.</p>
+        <div class="hero-cta">
+            <a href="/best-vps-hosting/" class="btn btn-primary">See Top Picks →</a>
+            <a href="/comparisons/vultr-vs-digitalocean/" class="btn btn-secondary">Vultr vs DigitalOcean</a>
+        </div>
+    </div>
+</section>
+
+<section class="featured-review section">
+    <div class="container">
+        <h2>🏆 Top Picks for {{ now.Format "2006" }}</h2>
+        <div class="provider-grid">
+            {{ range first 4 (where .Site.RegularPages "Section" "reviews") }}
+            <div class="provider-card">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ with .Params.rating }}
+                <div class="rating">★ {{ . }}/5</div>
+                {{ end }}
+                <p>{{ .Description }}</p>
+                <a href="{{ .RelPermalink }}" class="btn btn-sm">Read Review →</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<section class="comparisons section">
+    <div class="container">
+        <h2>⚡ Popular Comparisons</h2>
+        <div class="comparison-grid">
+            {{ range first 6 (where .Site.RegularPages "Section" "comparisons") }}
+            <div class="comparison-card">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<section class="guides section">
+    <div class="container">
+        <h2>📖 Guides & Tutorials</h2>
+        <div class="guide-list">
+            {{ range first 4 (where .Site.RegularPages "Section" "guides") }}
+            <article class="guide-item">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <p>{{ .Description }}</p>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<section class="cta-banner section">
+    <div class="container">
+        <h2>Not sure where to start?</h2>
+        <p>Answer 3 quick questions and get a personalized VPS recommendation.</p>
+        <a href="/guides/how-to-choose-a-vps/" class="btn btn-primary">Start the Guide →</a>
+    </div>
+</section>
+{{ end }}

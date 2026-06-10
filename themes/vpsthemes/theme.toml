@@ -1,0 +1,7 @@
+name = "vpscatalog"
+license = "MIT"
+homepage = "https://vpscatalog.com"
+min_version = "0.140.0"
+
+[author]
+  name = "VPS Catalog"

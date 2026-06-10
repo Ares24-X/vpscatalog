@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="container section">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.rating }}
+    <div class="review-meta">
+        <span class="rating">★ {{ .Params.rating }}/5</span>
+        {{ with .Params.provider_url }}<a href="{{ . }}" class="btn btn-sm btn-primary" rel="nofollow" target="_blank">Visit Provider →</a>{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.pros }}
+    <div class="pros-cons">
+        <div class="pros">
+            <h3>✅ Pros</h3>
+            <ul>
+                {{ range . }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        {{ with .Params.cons }}
+        <div class="cons">
+            <h3>❌ Cons</h3>
+            <ul>
+                {{ range . }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+    {{ .Content }}
+</div>
+{{ end }}
