@@ -5,29 +5,50 @@ theme = "vpsthemes"
 
 # SEO
 [params]
-  description = "In-depth VPS reviews, comparisons, and recommendations to help you choose the perfect hosting plan."
+  description = "Independent VPS hosting reviews, comparisons, and recommendations. We've tested 15+ providers to help you choose the perfect plan."
   author = "VPS Catalog Team"
   contact = "hello@vpscatalog.com"
+  og_image = "/images/og-default.png"
+  twitter_site = "@vpscatalog"
 
 # Performance
 [outputs]
   home = ["HTML"]
   section = ["HTML", "RSS"]
 
-# Taxonomies
+# Taxonomies - only use tags, remove categories noise
 [taxonomies]
-  category = "categories"
   tag = "tags"
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
 
 [build]
   writeStats = true
+
+# RSS
+[rss]
+  limit = 20
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.8
+  filename = "sitemap.xml"
 
 [mediaTypes]
   [mediaTypes."text/netlify"]
     suffix = "json"
     delimiter = ""
+
+# Privacy - disable Google Analytics initially, add later
+[privacy]
+  [privacy.googleAnalytics]
+    enable = false
+  [privacy.x]
+    enable = false
