@@ -123,6 +123,7 @@
       "cost-comparison-over-12-months",
       "data-comparison",
       "deploy-wordpress-on-a-vps-in-10-minutes",
+      "deployment-stack-that-keeps-things-simple",
       "detailed-analysis",
       "digitalocean",
       "head-to-head-vultr-vs-digitalocean",
@@ -161,6 +162,7 @@
       "recommended-server-size",
       "recommended-setup-by-use-case",
       "risk-notes",
+      "security-and-backup-checklist",
       "setup-checklist",
       "simple-deployment-pattern",
       "small-seo-crawler",
@@ -188,6 +190,7 @@
       "why-analytics-workloads-are-different",
       "why-browser-automation-needs-a-different-vps",
       "why-n8n-changes-the-vps-decision",
+      "why-saas-micro-apps-need-a-different-vps-decision",
       "wordpress-optimization-tips"
     ]
   }

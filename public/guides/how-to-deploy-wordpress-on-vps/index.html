@@ -1,26 +1,215 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>How to Deploy WordPress on a VPS | VPS Catalog - Find the Best VPS Hosting for Your Needs</title>
-<meta name=description content="Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS."><link rel=canonical href=https://vpscatalog.com/guides/how-to-deploy-wordpress-on-vps/><meta property="og:title" content="How to Deploy WordPress on a VPS"><meta property="og:description" content="Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS."><meta property="og:type" content="article"><meta property="og:url" content="https://vpscatalog.com/guides/how-to-deploy-wordpress-on-vps/"><meta property="og:site_name" content="VPS Catalog - Find the Best VPS Hosting for Your Needs"><meta property="og:locale" content="en_US"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="How to Deploy WordPress on a VPS"><meta name=twitter:description content="Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS."><script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","headline":"How to Deploy WordPress on a VPS","description":"Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS.","publisher":{"@type":"Organization","name":"VPS Catalog"}}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/vpscatalog.com\/"},{"@type":"ListItem","position":2,"name":"How to Deploy WordPress on a VPS","item":"https:\/\/vpscatalog.com\/guides\/how-to-deploy-wordpress-on-vps\/"}]}</script><link rel=stylesheet href=/css/style.css><script defer src=https://static.cloudflareinsights.com/beacon.min.js data-cf-beacon='{"token": "***"}'></script></head><body><header class=site-header><div class=container><a href=/ class=logo>VPS<span class=logo-accent>Catalog</span></a><nav class=main-nav><input type=checkbox id=nav-toggle class=nav-toggle>
-<label for=nav-toggle class=nav-toggle-label><span></span>
-<span></span>
-<span></span></label><ul class=nav-menu><li><a href=/>Home</a></li><li><a href=/best-vps-hosting/>Best VPS</a></li><li><a href=/reviews/>Reviews</a></li><li><a href=/comparisons/>Comparisons</a></li><li><a href=/guides/>Guides</a></li></ul></nav></div></header><main><div class="container section"><h1>How to Deploy WordPress on a VPS</h1></div><h2 id=deploy-wordpress-on-a-vps-in-10-minutes>Deploy WordPress on a VPS in 10 Minutes</h2><p>This guide works on any VPS provider. I&rsquo;ll show you the fastest way using a one-click app or manual setup.</p><h3 id=option-1-one-click-app-2-minutes>Option 1: One-Click App (2 minutes)</h3><p>Most VPS providers offer a WordPress one-click image:</p><ol><li>Create a new VPS instance</li><li>Select &ldquo;WordPress&rdquo; from the one-click apps</li><li>Choose your plan and data center</li><li>Deploy and grab your login URL from the server console</li></ol><p>Works on: DigitalOcean, Vultr, Linode (varies by provider)</p><h3 id=option-2-manual-lemp-stack-10-minutes>Option 2: Manual LEMP Stack (10 minutes)</h3><p>SSH into your VPS and run these commands:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Update system</span>
-</span></span><span style=display:flex><span>sudo apt update <span style=color:#f92672>&amp;&amp;</span> sudo apt upgrade -y
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Install Nginx, MySQL, PHP</span>
-</span></span><span style=display:flex><span>sudo apt install nginx mysql-server php-fpm php-mysql php-curl php-gd php-xml php-mbstring php-zip -y
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Download WordPress</span>
-</span></span><span style=display:flex><span>cd /var/www/html
-</span></span><span style=display:flex><span>sudo wget https://wordpress.org/latest.tar.gz
-</span></span><span style=display:flex><span>sudo tar -xzf latest.tar.gz
-</span></span><span style=display:flex><span>sudo mv wordpress/* .
-</span></span><span style=display:flex><span>sudo rm -rf wordpress latest.tar.gz
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Set permissions</span>
-</span></span><span style=display:flex><span>sudo chown -R www-data:www-data /var/www/html
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Create database</span>
-</span></span><span style=display:flex><span>sudo mysql -e <span style=color:#e6db74>&#34;CREATE DATABASE wordpress;&#34;</span>
-</span></span><span style=display:flex><span>sudo mysql -e <span style=color:#e6db74>&#34;CREATE USER &#39;wpuser&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;your-password-here&#39;;&#34;</span>
-</span></span><span style=display:flex><span>sudo mysql -e <span style=color:#e6db74>&#34;GRANT ALL ON wordpress.* TO &#39;wpuser&#39;@&#39;localhost&#39;;&#34;</span>
-</span></span><span style=display:flex><span>sudo mysql -e <span style=color:#e6db74>&#34;FLUSH PRIVILEGES;&#34;</span>
-</span></span></code></pre></div><p>Then visit your server&rsquo;s IP address and follow the WordPress setup wizard.</p><h3 id=which-option-is-better>Which Option is Better?</h3><table><thead><tr><th></th><th>One-Click</th><th>Manual</th></tr></thead><tbody><tr><td>Time</td><td>2 min</td><td>10 min</td></tr><tr><td>Control</td><td>Limited</td><td>Full</td></tr><tr><td>Learning</td><td>None</td><td>You learn Linux</td></tr><tr><td>Best for</td><td>Quick setup</td><td>Long-term projects</td></tr></tbody></table><p>For a production site, go manual or use a managed WP host. For testing or learning, one-click is fine.</p></div></main><footer class=site-footer><div class=container><div class=footer-grid><div class=footer-col><h4>VPS Catalog</h4><p>Helping you find the perfect VPS hosting since 2026. Independent reviews and honest comparisons.</p></div><div class=footer-col><h4>Quick Links</h4><ul><li><a href=/best-vps-hosting/>Best VPS Hosting</a></li><li><a href=/reviews/>VPS Reviews</a></li><li><a href=/comparisons/>VPS Comparisons</a></li><li><a href=/guides/>Guides & Tutorials</a></li></ul></div><div class=footer-col><h4>Legal</h4><ul><li><a href=/about/>About</a></li><li><a href=/disclosure/>Affiliate Disclosure</a></li><li><a href=/privacy/>Privacy Policy</a></li></ul></div></div><div class=footer-bottom><p>&copy; 2026 VPS Catalog. All rights reserved. Some links on this site are affiliate links. See our <a href=/disclosure/>Disclosure</a> for details.</p></div></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Deploy WordPress on a VPS | VPS Catalog - Find the Best VPS Hosting for Your Needs</title>
+    <meta name="description" content="Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS.">
+    <link rel="canonical" href="https://vpscatalog.com/guides/how-to-deploy-wordpress-on-vps/">
+    
+    
+    <meta property="og:title" content="How to Deploy WordPress on a VPS">
+    <meta property="og:description" content="Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://vpscatalog.com/guides/how-to-deploy-wordpress-on-vps/">
+    <meta property="og:site_name" content="VPS Catalog - Find the Best VPS Hosting for Your Needs">
+    <meta property="og:locale" content="en_US">
+    
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to Deploy WordPress on a VPS">
+    <meta name="twitter:description" content="Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS.">
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How to Deploy WordPress on a VPS",
+        "description": "Step-by-step guide to installing WordPress on a VPS. Works on DigitalOcean, Vultr, Linode, or any cloud VPS.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "VPS Catalog"
+        }
+    }
+    </script>
+    
+
+    
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": []
+    }
+    </script>
+    
+
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https:\/\/vpscatalog.com\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "How to Deploy WordPress on a VPS",
+            "item": "https:\/\/vpscatalog.com\/guides\/how-to-deploy-wordpress-on-vps\/"
+        }]
+    }
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "***"}'></script>
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <a href="/" class="logo">VPS<span class="logo-accent">Catalog</span></a>
+        <nav class="main-nav">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/best-vps-hosting/">Best VPS</a></li>
+                <li><a href="/reviews/">Reviews</a></li>
+                <li><a href="/comparisons/">Comparisons</a></li>
+                <li><a href="/guides/">Guides</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        
+<div class="container section">
+    <h1>How to Deploy WordPress on a VPS</h1>
+    
+    
+        
+    </div>
+    <h2 id="deploy-wordpress-on-a-vps-in-10-minutes">Deploy WordPress on a VPS in 10 Minutes</h2>
+<p>This guide works on any VPS provider. I&rsquo;ll show you the fastest way using a one-click app or manual setup.</p>
+<h3 id="option-1-one-click-app-2-minutes">Option 1: One-Click App (2 minutes)</h3>
+<p>Most VPS providers offer a WordPress one-click image:</p>
+<ol>
+<li>Create a new VPS instance</li>
+<li>Select &ldquo;WordPress&rdquo; from the one-click apps</li>
+<li>Choose your plan and data center</li>
+<li>Deploy and grab your login URL from the server console</li>
+</ol>
+<p>Works on: DigitalOcean, Vultr, Linode (varies by provider)</p>
+<h3 id="option-2-manual-lemp-stack-10-minutes">Option 2: Manual LEMP Stack (10 minutes)</h3>
+<p>SSH into your VPS and run these commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Update system</span>
+</span></span><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade -y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install Nginx, MySQL, PHP</span>
+</span></span><span style="display:flex;"><span>sudo apt install nginx mysql-server php-fpm php-mysql php-curl php-gd php-xml php-mbstring php-zip -y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Download WordPress</span>
+</span></span><span style="display:flex;"><span>cd /var/www/html
+</span></span><span style="display:flex;"><span>sudo wget https://wordpress.org/latest.tar.gz
+</span></span><span style="display:flex;"><span>sudo tar -xzf latest.tar.gz
+</span></span><span style="display:flex;"><span>sudo mv wordpress/* .
+</span></span><span style="display:flex;"><span>sudo rm -rf wordpress latest.tar.gz
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Set permissions</span>
+</span></span><span style="display:flex;"><span>sudo chown -R www-data:www-data /var/www/html
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create database</span>
+</span></span><span style="display:flex;"><span>sudo mysql -e <span style="color:#e6db74">&#34;CREATE DATABASE wordpress;&#34;</span>
+</span></span><span style="display:flex;"><span>sudo mysql -e <span style="color:#e6db74">&#34;CREATE USER &#39;wpuser&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;your-password-here&#39;;&#34;</span>
+</span></span><span style="display:flex;"><span>sudo mysql -e <span style="color:#e6db74">&#34;GRANT ALL ON wordpress.* TO &#39;wpuser&#39;@&#39;localhost&#39;;&#34;</span>
+</span></span><span style="display:flex;"><span>sudo mysql -e <span style="color:#e6db74">&#34;FLUSH PRIVILEGES;&#34;</span>
+</span></span></code></pre></div><p>Then visit your server&rsquo;s IP address and follow the WordPress setup wizard.</p>
+<h3 id="which-option-is-better">Which Option is Better?</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>One-Click</th>
+          <th>Manual</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Time</td>
+          <td>2 min</td>
+          <td>10 min</td>
+      </tr>
+      <tr>
+          <td>Control</td>
+          <td>Limited</td>
+          <td>Full</td>
+      </tr>
+      <tr>
+          <td>Learning</td>
+          <td>None</td>
+          <td>You learn Linux</td>
+      </tr>
+      <tr>
+          <td>Best for</td>
+          <td>Quick setup</td>
+          <td>Long-term projects</td>
+      </tr>
+  </tbody>
+</table>
+<p>For a production site, go manual or use a managed WP host. For testing or learning, one-click is fine.</p>
+
+</div>
+
+    </main>
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>VPS Catalog</h4>
+                <p>Helping you find the perfect VPS hosting since 2026. Independent reviews and honest comparisons.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/best-vps-hosting/">Best VPS Hosting</a></li>
+                    <li><a href="/reviews/">VPS Reviews</a></li>
+                    <li><a href="/comparisons/">VPS Comparisons</a></li>
+                    <li><a href="/guides/">Guides & Tutorials</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/disclosure/">Affiliate Disclosure</a></li>
+                    <li><a href="/privacy/">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 VPS Catalog. All rights reserved. Some links on this site are affiliate links. See our <a href="/disclosure/">Disclosure</a> for details.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
