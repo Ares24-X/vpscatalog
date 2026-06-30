@@ -2,6 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vpscatalog.com/tags/ai/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/guides/deploy-ollama-local-llm-on-vps-2026/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/llama/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/llm/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/mistral/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/ollama/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/self-hosted/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/vps/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/guides/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>https://vpscatalog.com/tags/cloudflare-pages/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -32,42 +87,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://vpscatalog.com/tags/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/tags/vps/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/guides/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/tags/ai/</loc>
-    <lastmod>2026-06-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://vpscatalog.com/tags/automation/</loc>
     <lastmod>2026-06-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://vpscatalog.com/guides/best-vps-for-private-ai-workspaces-2026/</loc>
-    <lastmod>2026-06-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/tags/llm/</loc>
     <lastmod>2026-06-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

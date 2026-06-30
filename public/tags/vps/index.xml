@@ -6,8 +6,15 @@
     <description>Recent content in Vps on VPS Catalog - Find the Best VPS Hosting for Your Needs</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vpscatalog.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy Ollama and Local LLMs on a VPS in 2026</title>
+      <link>https://vpscatalog.com/guides/deploy-ollama-local-llm-on-vps-2026/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/guides/deploy-ollama-local-llm-on-vps-2026/</guid>
+      <description>&lt;p&gt;One-sentence verdict: you can run small language models on a $10–$30/month VPS with 8–16 GB RAM, but keep expectations realistic — CPU-only inference is slow, and anything above 7B parameters needs serious hardware.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-this-guide-is-for&#34;&gt;Who This Guide Is For&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developers who want a private AI endpoint without sending data to OpenAI or Anthropic.&lt;/li&gt;&#xA;&lt;li&gt;Hobbyists experimenting with local LLMs who need a persistent server.&lt;/li&gt;&#xA;&lt;li&gt;Small teams building internal tools (code review bots, document Q&amp;amp;A) where latency under 5 seconds is acceptable.&lt;/li&gt;&#xA;&lt;li&gt;Privacy-conscious users who cannot use cloud AI APIs due to data residency rules.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you need real-time chat with sub-second token streaming for end users, this setup is not the answer. You need GPU instances or managed inference APIs for that.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cloudflare Pages vs VPS Hosting: Which One Fits Your Project in 2026?</title>
       <link>https://vpscatalog.com/guides/cloudflare-pages-vs-vps-hosting-2026/</link>
