@@ -6,8 +6,15 @@
     <description>Recent content in VPS Guides &amp; Tutorials on VPS Catalog - Find the Best VPS Hosting for Your Needs</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vpscatalog.com/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy Dify on a VPS: Open-Source LLM App Platform in 2026</title>
+      <link>https://vpscatalog.com/guides/deploy-dify-open-source-llm-platform-vps-2026/</link>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/guides/deploy-dify-open-source-llm-platform-vps-2026/</guid>
+      <description>&lt;p&gt;One-sentence verdict: Dify is the fastest way to build production-ready LLM applications on your own VPS, and with the right server choice you can run it reliably for $5–20/month instead of paying for the managed cloud plan.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-this-guide-is-for&#34;&gt;Who This Guide Is For&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developers who want to self-host an LLM application platform instead of paying Dify Cloud ($59+/month)&lt;/li&gt;&#xA;&lt;li&gt;Indie hackers building AI-powered internal tools, chatbots, or knowledge bases&lt;/li&gt;&#xA;&lt;li&gt;Small teams that need API key management, prompt engineering, and RAG pipelines under one roof&lt;/li&gt;&#xA;&lt;li&gt;Anyone who has tried OpenAI&amp;rsquo;s playground and wants more workflow control without vendor lock-in&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-dify&#34;&gt;What Is Dify?&lt;/h2&gt;&#xA;&lt;p&gt;Dify is an open-source LLM application development platform. Think of it as a self-hosted alternative to the OpenAI Assistants API plus a visual workflow builder. It supports:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Best VPS for Docker Containers in 2026</title>
       <link>https://vpscatalog.com/guides/best-vps-for-docker-containers-2026/</link>
