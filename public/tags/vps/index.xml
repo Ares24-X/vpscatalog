@@ -6,8 +6,15 @@
     <description>Recent content in Vps on VPS Catalog - Find the Best VPS Hosting for Your Needs</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vpscatalog.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy n8n on a VPS: Self-Hosted AI Workflow Automation in 2026</title>
+      <link>https://vpscatalog.com/guides/deploy-n8n-workflow-automation-vps-2026/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/guides/deploy-n8n-workflow-automation-vps-2026/</guid>
+      <description>&lt;p&gt;One-sentence verdict: n8n is the most flexible self-hosted workflow automation platform available, and deploying it on a $4–12/month VPS gives you unlimited executions instead of paying $20–60+/month for the cloud plan.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-this-guide-is-for&#34;&gt;Who This Guide Is For&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Solo developers and indie hackers building automations (Zapier-style) without per-task pricing&lt;/li&gt;&#xA;&lt;li&gt;Small teams that need AI-powered workflows connecting LLMs, databases, APIs, and internal tools&lt;/li&gt;&#xA;&lt;li&gt;Anyone who hit n8n Cloud&amp;rsquo;s execution limits or wants full data ownership&lt;/li&gt;&#xA;&lt;li&gt;DevOps engineers looking to automate infrastructure tasks with a visual builder&lt;/li&gt;&#xA;&lt;li&gt;Content creators automating publishing pipelines across platforms&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-n8n&#34;&gt;What Is n8n?&lt;/h2&gt;&#xA;&lt;p&gt;n8n (pronounced &amp;ldquo;n-eight-n&amp;rdquo;) is an open-source workflow automation platform with 400+ integrations. It competes with Zapier, Make.com, and Power Automate — but with full source code access and no per-execution fees when self-hosted.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Deploy Dify on a VPS: Open-Source LLM App Platform in 2026</title>
       <link>https://vpscatalog.com/guides/deploy-dify-open-source-llm-platform-vps-2026/</link>
