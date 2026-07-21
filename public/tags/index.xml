@@ -6,8 +6,78 @@
     <description>Recent content in Tags on VPS Catalog - Find the Best VPS Hosting for Your Needs</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vpscatalog.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai Chatbot</title>
+      <link>https://vpscatalog.com/tags/ai-chatbot/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/ai-chatbot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Budget-Vps</title>
+      <link>https://vpscatalog.com/tags/budget-vps/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/budget-vps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deployment</title>
+      <link>https://vpscatalog.com/tags/deployment/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/deployment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://vpscatalog.com/tags/docker/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flowise</title>
+      <link>https://vpscatalog.com/tags/flowise/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/flowise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Langchain</title>
+      <link>https://vpscatalog.com/tags/langchain/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/langchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://vpscatalog.com/tags/llm/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No-Code</title>
+      <link>https://vpscatalog.com/tags/no-code/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/no-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosted</title>
+      <link>https://vpscatalog.com/tags/self-hosted/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/self-hosted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vps</title>
+      <link>https://vpscatalog.com/tags/vps/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/vps/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cloudflare-Pages</title>
       <link>https://vpscatalog.com/tags/cloudflare-pages/</link>
@@ -44,13 +114,6 @@
       <description></description>
     </item>
     <item>
-      <title>Vps</title>
-      <link>https://vpscatalog.com/tags/vps/</link>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/vps/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Web-Hosting</title>
       <link>https://vpscatalog.com/tags/web-hosting/</link>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
@@ -72,31 +135,10 @@
       <description></description>
     </item>
     <item>
-      <title>Docker</title>
-      <link>https://vpscatalog.com/tags/docker/</link>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>https://vpscatalog.com/tags/llm/</link>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Open-Webui</title>
       <link>https://vpscatalog.com/tags/open-webui/</link>
       <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://vpscatalog.com/tags/open-webui/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Self-Hosted</title>
-      <link>https://vpscatalog.com/tags/self-hosted/</link>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/self-hosted/</guid>
       <description></description>
     </item>
     <item>
@@ -118,13 +160,6 @@
       <link>https://vpscatalog.com/tags/static-hosting/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://vpscatalog.com/tags/static-hosting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Budget-Vps</title>
-      <link>https://vpscatalog.com/tags/budget-vps/</link>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/budget-vps/</guid>
       <description></description>
     </item>
     <item>
@@ -160,13 +195,6 @@
       <link>https://vpscatalog.com/tags/coolify/</link>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://vpscatalog.com/tags/coolify/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Deployment</title>
-      <link>https://vpscatalog.com/tags/deployment/</link>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/deployment/</guid>
       <description></description>
     </item>
     <item>

@@ -6,8 +6,15 @@
     <description>Recent content in VPS Guides &amp; Tutorials on VPS Catalog - Find the Best VPS Hosting for Your Needs</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vpscatalog.com/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy Flowise on a VPS: Build AI Chatbots Without Code in 2026</title>
+      <link>https://vpscatalog.com/guides/deploy-flowise-ai-chatbot-builder-vps-2026/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/guides/deploy-flowise-ai-chatbot-builder-vps-2026/</guid>
+      <description>&lt;p&gt;One-sentence verdict: Flowise lets you build production-ready AI chatbots and RAG pipelines with a drag-and-drop interface, and self-hosting it on a $5–10/month VPS gives you unlimited builds with full data privacy — no vendor lock-in.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-this-guide-is-for&#34;&gt;Who This Guide Is For&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Non-technical founders who want custom AI chatbots without writing code&lt;/li&gt;&#xA;&lt;li&gt;Developers prototyping RAG (Retrieval-Augmented Generation) apps quickly&lt;/li&gt;&#xA;&lt;li&gt;Agencies building AI assistants for multiple clients on a single server&lt;/li&gt;&#xA;&lt;li&gt;Anyone who wants a visual LangChain/LlamaIndex builder with full control over data&lt;/li&gt;&#xA;&lt;li&gt;Teams needing private LLM workflows that never leave their infrastructure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-flowise&#34;&gt;What Is Flowise?&lt;/h2&gt;&#xA;&lt;p&gt;Flowise is an open-source, low-code platform for building LLM-powered applications. Think of it as a visual canvas where you drag, connect, and configure AI components — LLMs, vector stores, document loaders, memory modules, and tools — without writing boilerplate code.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cloudflare Pages vs VPS Hosting: When to Use Each (2026 Comparison)</title>
       <link>https://vpscatalog.com/guides/cloudflare-pages-vs-vps-hosting-comparison-2026/</link>
