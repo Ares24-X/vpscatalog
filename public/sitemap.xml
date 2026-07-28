@@ -2,12 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vpscatalog.com/guides/best-vps-for-self-hosted-media-server-jellyfin-plex-2026/</loc>
-    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+    <loc>https://vpscatalog.com/tags/budget/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/cloudflare/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://vpscatalog.com/tags/docker/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/guides/cloudflare-tunnel-budget-vps-host-multiple-sites-2026/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/multi-site/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/security/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/self-hosted/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/tunnel/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/tags/vps/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/guides/</loc>
+    <lastmod>2026-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://vpscatalog.com/guides/best-vps-for-self-hosted-media-server-jellyfin-plex-2026/</loc>
     <lastmod>2026-07-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -27,32 +82,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://vpscatalog.com/tags/self-hosted/</loc>
-    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
     <loc>https://vpscatalog.com/tags/streaming/</loc>
-    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/tags/</loc>
-    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/tags/vps/</loc>
-    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/</loc>
-    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/guides/</loc>
     <lastmod>2026-07-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -113,11 +143,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://vpscatalog.com/tags/linux/</loc>
-    <lastmod>2026-07-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/tags/security/</loc>
     <lastmod>2026-07-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -198,11 +223,6 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://vpscatalog.com/tags/backend/</loc>
-    <lastmod>2026-07-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://vpscatalog.com/tags/budget/</loc>
     <lastmod>2026-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
