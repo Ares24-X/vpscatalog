@@ -6,8 +6,15 @@
     <description>Recent content in Vps on VPS Catalog - Find the Best VPS Hosting for Your Needs</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vpscatalog.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Expose Your VPS Securely with Cloudflare Tunnel (Zero Trust) in 2026</title>
+      <link>https://vpscatalog.com/guides/deploy-vps-with-cloudflare-tunnel-zero-trust-2026/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/guides/deploy-vps-with-cloudflare-tunnel-zero-trust-2026/</guid>
+      <description>&lt;p&gt;One-sentence verdict: Cloudflare Tunnel lets you expose any VPS service to the internet without opening a single port, giving you free SSL, DDoS protection, and Zero Trust access control — ideal for self-hosted apps on cheap VPS plans that lack static IPs or decent firewalls.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-this-guide-is-for&#34;&gt;Who This Guide Is For&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Self-hosters running apps (Gitea, n8n, Nextcloud, Ollama Web UI) on a budget VPS who want secure public access.&lt;/li&gt;&#xA;&lt;li&gt;Developers tired of managing Nginx reverse proxies, Let&amp;rsquo;s Encrypt renewals, and firewall rules.&lt;/li&gt;&#xA;&lt;li&gt;Teams deploying internal tools that should only be accessible to specific users — not the entire internet.&lt;/li&gt;&#xA;&lt;li&gt;Anyone on a cheap VPS behind CGNAT or without a static IPv4 address.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you only need static site hosting, Cloudflare Pages is simpler. This guide is for dynamic apps running on your own server.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Run Open-Source AI Tools on a Budget VPS (2026 Guide)</title>
       <link>https://vpscatalog.com/guides/deploy-open-source-ai-tools-budget-vps-2026/</link>

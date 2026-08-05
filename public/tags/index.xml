@@ -6,8 +6,57 @@
     <description>Recent content in Tags on VPS Catalog - Find the Best VPS Hosting for Your Needs</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 04 Aug 2026 14:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vpscatalog.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budget</title>
+      <link>https://vpscatalog.com/tags/budget/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/budget/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloudflare</title>
+      <link>https://vpscatalog.com/tags/cloudflare/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/cloudflare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://vpscatalog.com/tags/security/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosted</title>
+      <link>https://vpscatalog.com/tags/self-hosted/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/self-hosted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tunnel</title>
+      <link>https://vpscatalog.com/tags/tunnel/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/tunnel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vps</title>
+      <link>https://vpscatalog.com/tags/vps/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/vps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zero-Trust</title>
+      <link>https://vpscatalog.com/tags/zero-trust/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://vpscatalog.com/tags/zero-trust/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Affordable Vps</title>
       <link>https://vpscatalog.com/tags/affordable-vps/</link>
@@ -114,13 +163,6 @@
       <description></description>
     </item>
     <item>
-      <title>Budget</title>
-      <link>https://vpscatalog.com/tags/budget/</link>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/budget/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Gpu</title>
       <link>https://vpscatalog.com/tags/gpu/</link>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
@@ -149,24 +191,10 @@
       <description></description>
     </item>
     <item>
-      <title>Self-Hosted</title>
-      <link>https://vpscatalog.com/tags/self-hosted/</link>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/self-hosted/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Stable-Diffusion</title>
       <link>https://vpscatalog.com/tags/stable-diffusion/</link>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://vpscatalog.com/tags/stable-diffusion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vps</title>
-      <link>https://vpscatalog.com/tags/vps/</link>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/vps/</guid>
       <description></description>
     </item>
     <item>
@@ -282,31 +310,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cloudflare</title>
-      <link>https://vpscatalog.com/tags/cloudflare/</link>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/cloudflare/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Multi-Site</title>
       <link>https://vpscatalog.com/tags/multi-site/</link>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://vpscatalog.com/tags/multi-site/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://vpscatalog.com/tags/security/</link>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tunnel</title>
-      <link>https://vpscatalog.com/tags/tunnel/</link>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://vpscatalog.com/tags/tunnel/</guid>
       <description></description>
     </item>
     <item>
